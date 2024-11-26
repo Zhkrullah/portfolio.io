@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900
+
+.crimson-pro-<uniquifier> {
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-sans-<uniquifier> {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+} */
+
+main{
+    position: relative;
+    top: 100px;
+    padding: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+}
+.left-part{
+  width: 400px;
+  height: 400px;
+    position: relative;
+   
+}
+
+.text-box{
+   margin-top: auto;
+    width: 200px;
+    padding: 30px;
+    background-color:#e7e6e1 ;
+
+   
+ 
+}
+.left-part img{
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: -30px;
+   left: 220px;
+   
+}
+
+.right-part{
+    width: 400px;
+    height: 400px;
+      position: relative;
+      transform: translate(-10px);
+      transition: 2s ease-in-out;
+     
+  }
+.text-box:hover{
+    background-color: #314e52;
+     
+  }
+.right-part img{
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: -5px;
+    left: 220px;
+     
+  }
+
+h3{
+    font-size: 1.7rem;
+    font-family: "Crimson Pro", serif;
+    font-weight: bold;
+    
+}
+
+p{
+ 
+    color: #b9b9b9;
+    font-size: 1.05625rem;
+    width: 19.68125rem;
+}
+
+.shop-now-button {
+    position: relative;
+    background-color: #f9a84d; /* Adjust the color to match the button */
+    color: white; /* Text color */
+    border: none;
+    margin-top: 20px;
+   
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Font size for the text */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    transition: background-color 0.3s ease;
+  }
+
+  .shop-now-button:hover {
+    background-color: #e6953c;
+  }
+
+  .shop-now-button-2{
+       position: relative;
+       top: -15px;
+       left: 10px;
+         background-color: #111;
+         transition: background-color 0.3s ease;
+        border: none;
+       z-index: -1;
+        cursor: pointer;
+       width: 130px;
+       height: 32px;
+      }
+
+    .sale{
+        position: relative;
+        top: -170px;
+        left: 280px;
+        display: block;
+        background-color: #e6953c;
+        padding: 10px 4px;
+        width: 130px;
+        color:#fff;
+        text-align: center;
+    }
+    .sale-2{
+        position: relative;
+        top: -170px;
+        left: 280px;
+        display: block;
+        background-color: #e6953c;
+        padding: 10px 4px;
+        width: 130px;
+        color:#fff;
+        text-align: center;
+    }
+
+    .Next{
+     
+      position: absolute;
+      right: 10px;
+      top: 5px;
+      margin-top: 200px;
+      text-align: center;
+      font-size: 18px;
+      padding: 5px 10px;
+      background-color: #e6953c;
+      border: none;
+    }
+    
+    .Next a{
+      text-decoration: none;
+      color: #000000;
+    }
+
+    .Privious{
+     
+      position: absolute;
+      left: -0px;
+      top: 5px;
+      margin-top: 200px;
+      margin-right: 40px;
+      padding: 10px;
+      text-align: center;
+      font-size: 18px;
+      padding: 5px 10px;
+      background-color: #e6953c;
+      border: none;
+    }
+    
+    .Privious a{
+      text-decoration: none;
+      color: #000000;
+    } 
+    
+    footer{
+     
+      background-color: #314e52;
+     text-align: center;
+    
+    }
+    ul li img{
+      width: 50px;
+      height: 100% ;
+      overflow: hidden;
+      border-radius: 50%;
+      background-color: #f2a154;
+      padding: 10px;
+    }
+
+   footer ul li{
+      display: inline-block;
+      padding: 10px;
+      
+    }
+
+    h3{
+      color: #fff;
+    }
+    .Free-shipping{
+      margin-right: 170px;
+    }
+    .Free-return{
+      margin-left: 170px;
+    }
+
+    .right-part{
+      margin-top: 10px;
+    }

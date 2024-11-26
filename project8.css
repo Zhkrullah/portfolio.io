@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(90deg, #e7e6e1, #828581);
+  overflow: hidden;
+}
+
+/* Styling the image-box */
+.image-box {
+    position: relative;
+    top: 50px;
+    left: 130px;
+    width: 80%;
+    height: 300px; /* Set a height for the container */
+    /* Replace with your image path */
+    background-size: cover; /* Makes the image cover the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  
+    align-items: center;
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Text color for contrast */
+    text-align: center;
+    padding: 20px;
+    
+    background-color: rgba(0, 0, 0, 0.5); /* Fallback in case the image doesn't load */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.918)), url('img2/tr2.jfif'); /* Add transparent color overlay */
+}
+
+.image-box h3 {
+   position: relative;
+   top: 40px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.shop-now-button {
+    position: relative;
+    background-color: #f9a84d; /* Adjust the color to match the button */
+    color: white; /* Text color */
+    border: none;
+    top: 100px;
+    left: 450px;
+   
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Font size for the text */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-now-button:hover {
+    background-color: #e6953c;
+  }
+  
+  .arrow {
+    font-size: 16px;
+  }
+
+  .shop-now-button-2{
+       position: relative;
+       top: -15px;
+       left: 10px;
+         background-color: #111;
+         transition: background-color 0.3s ease;
+        border: none;
+       z-index: -1;
+        cursor: pointer;
+       width: 130px;
+       height: 32px;
+      }
+
+     .down-container{
+      position: relative;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        gap: 40px;
+        background-color: #ffff;
+        width: 80%;
+        height: 300px;
+        top: -80px;
+        left: 130px;
+        padding: 30px;
+       
+      }
+     /* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+ 
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900
+
+.crimson-pro-<uniquifier> {
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-sans-<uniquifier> {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+} */
+ 
+h3{
+  font-family: "Crimson Pro", serif;
+  color: #ffffff;
+  margin-bottom: 1dvi;
+}
+h4{
+  font-family: "Crimson Pro", serif;
+  color: #000000;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+
+.Arowwai{
+ 
+}
+.Arowwai p{
+  font-family: "Raleway", sans-serif;
+  color: #000000;
+
+}
+
+li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  width: 10px;
+  height: 100%;
+}
+
+input{
+  position: relative;
+  left: -34px;
+  top: 10px;
+  display: block;
+ padding:  4px;
+ height:40px;
+ width: 120px;
+ border: 2px solid;
+}
+
+.Subscribe{
+  background-color: #eb7708;
+  padding: 8px;
+  position: relative;
+  left: 140px;
+  top: -30px;
+}
+
+a{
+  color: #fff;
+}
+
+  
+.Privious{
+       
+  position: absolute;
+  left: 20px;
+  bottom: 120px;
+  
+  margin-top: 200px;
+  margin-right: 40px;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px 10px;
+  background-color: #e6953c;
+  border: none;
+}
+
+.Privious a{
+  text-decoration: none;
+  color: #000000;
+} 

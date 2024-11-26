@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 30px;
+  
+    height: 100vh;
+}
+.image-box{
+position: relative;
+background-color: #314e52;
+max-width: 300px;
+max-height: 200px;
+height: 100vh;
+margin-top: 100px;
+}
+
+img{
+ 
+  box-shadow: 5px 0px 5px #00000077;
+  filter: drop-shadow(5px 0px 5px #00000077);
+  cursor: pointer;
+    position: relative;
+   top: -130px;
+ 
+   
+}
+
+.image-box-2{
+    background-color:  #e7e6e1;
+    box-shadow: 10px 0 10px #e7e6e19f;
+    max-width: 100px;
+   
+   
+    
+}
+.image-2{
+   position: relative;
+   top: -50px;
+   right: 10px;
+ 
+}
+
+#image-box-2{
+    margin-top: 20px;
+}
+h3{
+    color: #314e52;
+    font-size: 1.4rem;
+}
+
+p{
+    font-size: 1.0rem;
+    margin-bottom: 30px;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: 0.9rem;
+    color: rgb(161, 137, 137);
+  }
+
+  .shop-now-button {
+    position: relative;
+    background-color: #f9a84d; /* Adjust the color to match the button */
+    color: white; /* Text color */
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Font size for the text */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-now-button:hover {
+    background-color: #e6953c;
+  }
+  
+  .shop-now-button-2{
+    position: relative;
+    top: -15px;
+    left: 10px;
+      background-color: #111;
+      transition: background-color 0.3s ease;
+     border: none;
+    z-index: -1;
+     cursor: pointer;
+    width: 130px;
+    height: 32px;
+   }
+
+.image-box-2{
+  margin-top: 20px;
+}
+
+.left-part{
+
+  display: flex;
+  justify-content: center;
+  align-items:stretch;
+}
+
+.price{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-right: 35px;
+  margin-top: 10px;
+  color: red;
+ 
+}
+
+
+.product-rating{
+  color: #f9a84d;
+  display: block;
+  font-size: 1.2rem;
+
+}
+
+.Next{
+     
+  position: absolute;
+  right: 20px;
+  bottom: 120px;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px 10px;
+  background-color: #e6953c;
+  border: none;
+}
+
+.Next a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.Privious{
+   
+  position: absolute;
+  left: 20px;
+  bottom: 120px;
+  margin-top: 200px;
+  margin-right: 40px;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px 10px;
+  background-color: #e6953c;
+  border: none;
+}
+
+.Privious a{
+  text-decoration: none;
+  color: #000000;
+} 
+product-rating-container {
+  display: inline-block;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-rating {
+  margin: 10px 0;
+}
+
+.star {
+  font-size: 30px;
+  color: #f7b731; /* Default color for unselected stars */
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.star:hover,
+.star.hovered {
+  color: #f7b731; /* Highlight stars on hover */
+}
+
+.star.selected {
+  color: #f7b731; /* Highlight stars when selected */
+}
+
+.rating-message {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}

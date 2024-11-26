@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900
+
+.crimson-pro-<uniquifier> {
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-sans-<uniquifier> {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+} */
+body{
+    background-image: linear-gradient(90deg, #e7e6e1, #828581);
+    overflow: hidden;
+}
+
+main{
+
+  
+}
+.container{
+  position: relative;
+  display: flex;
+ justify-content: center;
+ top: 100px;
+
+ gap: 10px;
+
+ min-height: 100vh;
+}
+
+.image-container{
+  transform: translate(-30px);
+  transition: 2s ease-in-out;
+  box-shadow: 5px 0px 5px #00000077;
+  filter: drop-shadow(5px 0px 5px #00000077);
+  cursor: pointer;
+}
+.image-container:hover{
+  background-color: #00000077;
+}
+
+
+.mark{
+  color: #eb7708;
+  font-weight: lighter;
+  margin-right: 20px;
+}
+.shop-now-button {
+    position: relative;
+    background-color: #f9a84d; /* Adjust the color to match the button */
+    color: white; /* Text color */
+    border: none;
+    margin-top: 20px;
+   
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Font size for the text */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-now-button-2{
+    position: relative;
+    top: -15px;
+    left: 10px;
+      background-color: #111;
+      transition: background-color 0.3s ease;
+     border: none;
+    z-index: -1;
+     cursor: pointer;
+    width: 130px;
+    height: 32px;
+   }
+
+  h5.head-2{
+    font-size: 0.9375rem;
+    color: #000000;
+    padding: 5px 0px;
+  }
+  h2{
+    color: #314e52;
+    font-size: 1.8125rem;
+    font-family: "Crimson Pro", serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  p{
+    font-size: 1.0rem;
+    margin-bottom: 30px;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: 0.9rem;
+  }
+
+  /* .head{
+    margin-bottom: 20px;
+    color: #e7e6e1;
+    font-size: 10px;
+  } */
+
+  .details{
+    margin-top: 30px;
+  }
+  .shop-now-button:hover {
+    background-color: #e6953c;
+  }
+
+  .shop-now-button-2{
+    position: relative;
+    top: -15px;
+    left: 10px;
+      background-color: #111;
+      transition: background-color 0.3s ease;
+     border: none;
+    z-index: -1;
+     cursor: pointer;
+    width: 130px;
+    height: 32px;
+   }
+
+  .image-container{
+    margin-left: 100px;
+  }
+  .image-1{
+    display: inline-block;
+  }
+/*    .image-2{
+    display: inline-block;
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    width: 150px;
+   }
+   .image-3{display: inline-block;
+    position: absolute;
+    bottom: -20px;
+    left: 150px;
+    width: 145px;
+   } */
+
+   .box-color{
+    position: relative;
+    top: -300px;
+    right: -155px;
+    width: 270px;
+    height: 330px;
+    background-color: #314e52;
+    z-index: -1;
+   }
+
+   .Next{
+     
+    position: absolute;
+    right: 20px;
+    bottom: 120px;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: #e6953c;
+    border: none;
+  }
+
+  .Next a{
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .Privious{
+     
+    position: absolute;
+    left: 20px;
+    bottom: 120px;
+    margin-top: 200px;
+    margin-right: 40px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: #e6953c;
+    border: none;
+  }
+  
+  .Privious a{
+    text-decoration: none;
+    color: #000000;
+  } 
+ 
